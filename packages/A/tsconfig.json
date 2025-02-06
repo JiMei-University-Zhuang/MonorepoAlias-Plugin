@@ -7,9 +7,11 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "./dist",
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
-      "@monorepo/sdk": ["../sdk/src"]
+      "@/*": ["*"],
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"]
     }
   },
   "include": ["src"],

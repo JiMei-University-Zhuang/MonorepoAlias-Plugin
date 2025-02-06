@@ -1,0 +1,16 @@
+{
+  "name": "monorepo-alias-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:A": "pnpm --filter ./packages/A dev",
+    "build:A": "pnpm --filter ./packages/A build",
+    "dev:sdk": "pnpm --filter ./packages/sdk dev",
+    "build:sdk": "pnpm --filter ./packages/sdk build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0"
+  }
+}

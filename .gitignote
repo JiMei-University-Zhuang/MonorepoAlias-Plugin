@@ -1,8 +1,6 @@
-# .gitignore
-
 # Dependencies
-node_modules/
-.pnpm-store/
+node_modules
+.pnpm-store
 
 # Build outputs
 dist/
